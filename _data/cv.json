@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Vincent Siu",
+    "email": "vsiu3@ucsc.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "vsiu-ucsc.github.io",
+    "summary": "PHD Student at UCSC studying NLP",
     "location": {
       "address": "",
       "postalCode": "",
