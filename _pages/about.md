@@ -48,14 +48,14 @@ My research focuses on developing methods grounded in linear algebra to interpre
   <li>
     Zhun Wang, <strong>Vincent Siu</strong>, Zhe Ye, Tianneng Shi, Yuzhou Nie, Xuandong Zhao, Chenguang Wang, Wenbo Guo, Dawn Song.<br/>
     AgentVigil: End-to-End Redteaming of Black-Box AI Agents.<br/>
-    In <em>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</em><br/>
+    EMNLP 2025<br/>
     <a href="https://arxiv.org/abs/2505.05849"><strong>Paper (arXiv)</strong></a>
   </li>
 
   <li>
     <strong>Vincent Siu</strong>, Nicholas Crispino, Zihao Yu, Sam Pan, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang.<br/>
     COSMIC: Generalized Refusal Direction Identification in LLM Activations.<br/>
-    In <em>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)</em><br/>
+    ACL 2025<br/>
     <a href="https://arxiv.org/abs/2506.00085"><strong>Paper (arXiv)</strong></a> • 
     <a href="https://github.com/wang-research-lab/COSMIC"><strong>Code (GitHub)</strong></a>
   </li>
