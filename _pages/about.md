@@ -18,9 +18,8 @@ My research focuses on developing methods grounded in linear algebra to interpre
 
 <div class="announcements">
   <ul>
-    <li><strong>08/2025:</strong> I will be moving with my advsior to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
-    <li><strong>03/2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025!🎉</li>
-    <!-- Add more announcements here -->
+    <li><strong>08/2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
+    <li><strong>03/2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025! 🎉</li>
   </ul>
 </div>
 
@@ -36,10 +35,10 @@ My research focuses on developing methods grounded in linear algebra to interpre
 .announcements {
   max-height: 150px;   /* Adjust height limit before scrolling */
   overflow-y: auto;
-  border: 1px solid #ddd;
   padding: 10px;
   border-radius: 8px;
-  background: #fafafa;
+  background: transparent;  /* transparent for light/dark theme */
+  border: none;             /* remove hard-coded border */
 }
 </style>
 
@@ -49,13 +48,14 @@ My research focuses on developing methods grounded in linear algebra to interpre
   <li>
     Zhun Wang, <strong>Vincent Siu</strong>, Zhe Ye, Tianneng Shi, Yuzhou Nie, Xuandong Zhao, Chenguang Wang, Wenbo Guo, Dawn Song. <br/>
     <em>AgentVigil: End-to-End Redteaming of Black-Box AI Agents</em>
-    – [**Paper (arXiv)**](https://www.arxiv.org/abs/2505.05849)
+    – <a href="https://arxiv.org/abs/2505.05849"><strong>Paper (arXiv)</strong></a>
   </li>
 
   <li>
     <strong>Vincent Siu</strong>, Nicholas Crispino, Zihao Yu, Sam Pan, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang. <br/>
     <em>COSMIC: Generalized Refusal Direction Identification in LLM Activations</em>  
-    – [**Paper (arXiv)**](https://arxiv.org/abs/2506.00085) • [**Code (GitHub)**](https://github.com/wang-research-lab/COSMIC)
+    – <a href="https://arxiv.org/abs/2506.00085"><strong>Paper (arXiv)</strong></a> • 
+      <a href="https://github.com/wang-research-lab/COSMIC"><strong>Code (GitHub)</strong></a>
   </li>
 </ul>
 
