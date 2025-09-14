@@ -42,6 +42,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
 }
 </style>
 
+
 ## 📄 Publications
 
 <ul>
@@ -65,3 +66,10 @@ My research focuses on developing methods grounded in linear algebra to interpre
 ## Preprints
 
 More to come in this section within the next month!
+
+## F(L)OSS
+<ul>
+  <li>
+    Contributor to <a href="https://github.com/Leezekun/MassGen">MassGen</a>, a multi-agent scaling system for GenAI
+  </li>
+</ul>
