@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "VSiu Personal Webpage"
+title                    : "Vincent's WebPage"
 title_separator          : "-"
 name                     : &name "Vincent Siu"
 description              : &description "personal description"
