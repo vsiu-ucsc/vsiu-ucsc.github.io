@@ -48,18 +48,17 @@ My research focuses on developing methods grounded in linear algebra to interpre
 
 <div style="margin-bottom: 40px;">
   <div style="overflow: hidden; margin-bottom: 30px;">
-    <img src="/images/repit.png" alt="RepIt overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;">
-    <div>
+    <img src="/images/repit.png" alt="RepIt overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
+    <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>RepIt: Representing Isolated Targets to Steer Language Models</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
-      <p><em>Preprint</em></p>
       <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a></p>
     </div>
   </div>
 
   <div style="overflow: hidden; margin-bottom: 30px;">
-    <img src="/images/steeringcontrol.png" alt="SteeringControl overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;">
-    <div>
+    <img src="/images/steeringcontrol.png" alt="SteeringControl overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
+    <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>SteeringControl: Holistic Evaluation of Alignment Steering in LLMs</strong></h3>
       <p><strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang</p>
       <p><em>Under review at NeurIPS 2025</em></p>

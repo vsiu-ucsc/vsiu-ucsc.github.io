@@ -56,6 +56,12 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
+    {% if post.figure %}
+      <div class="archive__item-figure" style="float: left; margin: 0 20px 20px 0; max-width: 350px;">
+        <img src="{{ post.figure }}" alt="{{ post.title }}" style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
+      </div>
+    {% endif %}
     
     {% comment %} 
     Links section - prioritize Paper URL, then add BibTeX dropdown if available 
