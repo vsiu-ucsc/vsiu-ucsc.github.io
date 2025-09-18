@@ -3,7 +3,7 @@ title: "SteeringControl: Holistic Evaluation of Alignment Steering in LLMs"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-steeringcontrol
-excerpt: 'A comprehensive evaluation framework for alignment steering methods in large language models.'
+excerpt: This paper introduces SteeringControl, a holistic evaluation framework for alignment steering methods in large language models. The work provides comprehensive assessment methodologies for various steering techniques used to control and align LLM behavior, offering insights into the effectiveness and limitations of different approaches to model steering.'
 date: 2025-09-16'
 venue: Preprint
 paperurl: Preprint
@@ -19,10 +19,3 @@ citation: '@misc{siu2025steeringcontrolholisticevaluationalignment,
       url={https://arxiv.org/abs/2509.13450}
 }'
 ---
-
-
-## Summary
-
-This paper introduces SteeringControl, a holistic evaluation framework for alignment steering methods in large language models. The work provides comprehensive assessment methodologies for various steering techniques used to control and align LLM behavior, offering insights into the effectiveness and limitations of different approaches to model steering.
-
-*Equal contribution with N. Crispino

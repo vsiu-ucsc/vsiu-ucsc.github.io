@@ -3,7 +3,7 @@ title: "AgentVigil: End-to-End Redteaming of Black-Box AI Agents"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-agentvigil
-excerpt: 'This paper presents AgentVigil, a comprehensive framework for end-to-end red-teaming evaluation of black-box AI agents to identify vulnerabilities and improve agent safety.'
+excerpt: 'AgentVigil introduces a comprehensive framework for conducting end-to-end red-teaming evaluations of black-box AI agents. The work introduces a fuzzing methodology to systematically exploit indirect prompt injections in blackbox AI agent systems, providing valuable insights for improving agent robustness and safety in real-world deployments.'
 date: 2025-05-09
 venue: 'EMNLP 2025'
 paperurl: 'https://www.arxiv.org/abs/2505.05849'
@@ -18,4 +18,3 @@ citation: '@misc{wang2025agentvigilgenericblackboxredteaming,
 }'
 ---
 
-AgentVigil introduces a comprehensive framework for conducting end-to-end red-teaming evaluations of black-box AI agents. The work introduces a fuzzing methodology to systematically exploit indirect prompt injections in blackbox AI agent systems, providing valuable insights for improving agent robustness and safety in real-world deployments.

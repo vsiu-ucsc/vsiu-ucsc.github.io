@@ -18,6 +18,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
 
 <div class="announcements">
   <ul>
+    <li><strong>09/2025:</strong> <i>RepIt</i> and <i>SteeringControl</i> are now on arXiv! </li>
     <li><strong>08/2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
     <li><strong>03/2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025! 🎉</li>
   </ul>
@@ -43,33 +44,32 @@ My research focuses on developing methods grounded in linear algebra to interpre
 </style>
 
 
-## 📄 Publications
+## 📄 Featured Publications
 
 <ul>
   <li>
-    Zhun Wang, <strong>Vincent Siu</strong>, Zhe Ye, Tianneng Shi, Yuzhou Nie, Xuandong Zhao, Chenguang Wang, Wenbo Guo, Dawn Song.<br/>
-    AgentVigil: End-to-End Redteaming of Black-Box AI Agents.<br/>
-    EMNLP 2025<br/>
-    <a href="https://arxiv.org/abs/2505.05849"><strong>Paper (arXiv)</strong></a>
+    <strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang.<br/>
+    SteeringControl: Holistic Evaluation of Alignment Steering in LLMs.<br/>
+    Under review at NeurIPS 2025<br/>
+    <a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a>
   </li>
 
   <li>
-    <strong>Vincent Siu</strong>, Nicholas Crispino, Zihao Yu, Sam Pan, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang.<br/>
-    COSMIC: Generalized Refusal Direction Identification in LLM Activations.<br/>
-    ACL 2025<br/>
-    <a href="https://arxiv.org/abs/2506.00085"><strong>Paper (arXiv)</strong></a> • 
-    <a href="https://github.com/wang-research-lab/COSMIC"><strong>Code (GitHub)</strong></a>
+    <strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang.<br/>
+    RepIt: Representing Isolated Targets to Steer Language Models.<br/>
+    Preprint<br/>
+    <a href="#"><strong>Paper (Coming Soon)</strong></a> • 
+    <a href="#"><strong>Code (Coming Soon)</strong></a>
   </li>
 </ul>
 
+<p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list here</strong></a></p>
 
-## Preprints
-
-More to come in this section within the next month!
 
 ## F(L)OSS
 <ul>
   <li>
-    Contributor to <a href="https://github.com/Leezekun/MassGen">MassGen</a>, a multi-agent scaling system for GenAI
+    Contributor to <a href="https://github.com/Leezekun/MassGen">MassGen</a>, a multi-agent scaling system for GenAI<br/>
+    <small>400+ stars on GitHub</small>
   </li>
 </ul>

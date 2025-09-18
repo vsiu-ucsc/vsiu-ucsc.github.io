@@ -80,7 +80,7 @@
       {% if post.citation %}
         {% if post.paperurl or post.codeurl or post.dataurl or post.slidesurl %} | {% endif %}
         <details style="display: inline-block;">
-          <summary style="cursor: pointer; color: #1e6091; text-decoration: underline;">BibTeX</summary>
+          <summary style="cursor: pointer; text-decoration: underline;">BibTeX</summary>
           <pre style="margin: 10px 0; padding: 10px; background: #f8f8f8; border: 1px solid #ddd; font-size: 12px; white-space: pre-wrap; word-wrap: break-word;"><code>{{ post.citation }}</code></pre>
         </details>
       {% elsif post.bibtexurl %}
