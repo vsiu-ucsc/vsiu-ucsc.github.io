@@ -7,6 +7,7 @@ excerpt: This paper introduces SteeringControl, a holistic evaluation framework 
 date: 2025-09-16'
 venue: Preprint
 paperurl: Preprint
+figure: 'steeringcontrol.png'
 codeurl: 'https://github.com/wang-research-lab/SteeringControl'
 dataurl: 'https://huggingface.co/datasets/WangResearchLab/SteeringControl'
 citation: '@misc{siu2025steeringcontrolholisticevaluationalignment,

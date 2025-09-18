@@ -48,22 +48,21 @@ My research focuses on developing methods grounded in linear algebra to interpre
 
 <ul>
   <li>
-    <strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang.<br/>
-    SteeringControl: Holistic Evaluation of Alignment Steering in LLMs.<br/>
-    Under review at NeurIPS 2025<br/>
-    <a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a>
-  </li>
-
-  <li>
     <strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang.<br/>
     RepIt: Representing Isolated Targets to Steer Language Models.<br/>
     Preprint<br/>
-    <a href="#"><strong>Paper (Coming Soon)</strong></a> • 
-    <a href="#"><strong>Code (Coming Soon)</strong></a>
+    <a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a>
+
+  </li>
+  <li>
+    <strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang.<br/>
+    SteeringControl: Holistic Evaluation of Alignment Steering in LLMs.<br/>
+    Preprint<br/>
+    <a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a>
   </li>
 </ul>
 
-<p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list here</strong></a></p>
+<p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find full list here</strong></a></p>
 
 
 ## F(L)OSS

@@ -7,6 +7,7 @@ excerpt: 'COSMIC presents a novel approach to understanding and identifying refu
 date: 2025-05-30
 venue: 'ACL 2025 Findings; KnowFM@ACL 2025 Workshop'
 paperurl: 'https://arxiv.org/abs/2506.00085'
+figure: 'cosmic.png'
 codeurl: 'https://github.com/wang-research-lab/COSMIC'
 citation: '@misc{siu2025cosmicgeneralizedrefusaldirection,
       title={COSMIC: Generalized Refusal Direction Identification in LLM Activations}, 
