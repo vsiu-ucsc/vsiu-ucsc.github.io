@@ -67,7 +67,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
   </div>
 </div>
 
-<p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find full list here</strong></a></p>
+<p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list of publications here</strong></a></p>
 
 
 ## F(L)OSS
