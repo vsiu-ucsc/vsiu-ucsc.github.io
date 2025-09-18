@@ -7,6 +7,8 @@ excerpt: 'A comprehensive evaluation framework for alignment steering methods in
 date: 2025-09-16'
 venue: Preprint
 paperurl: Preprint
+codeurl: 'https://github.com/wang-research-lab/SteeringControl'
+dataurl: 'https://huggingface.co/datasets/WangResearchLab/SteeringControl'
 citation: '@misc{siu2025steeringcontrolholisticevaluationalignment,
       title={SteeringControl: Holistic Evaluation of Alignment Steering in LLMs}, 
       author={Vincent Siu and Nicholas Crispino and David Park and Nathan W. Henry and Zhun Wang and Yang Liu and Dawn Song and Chenguang Wang},

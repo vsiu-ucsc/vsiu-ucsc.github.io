@@ -7,6 +7,7 @@ excerpt: 'This paper introduces COSMIC, a method for identifying generalized ref
 date: 2025-05-30
 venue: 'ACL 2025 Findings; KnowFM@ACL 2025 Workshop'
 paperurl: 'https://arxiv.org/abs/2506.00085'
+codeurl: 'https://github.com/wang-research-lab/COSMIC'
 citation: '@misc{siu2025cosmicgeneralizedrefusaldirection,
       title={COSMIC: Generalized Refusal Direction Identification in LLM Activations}, 
       author={Vincent Siu and Nicholas Crispino and Zihao Yu and Sam Pan and Zhun Wang and Yang Liu and Dawn Song and Chenguang Wang},
