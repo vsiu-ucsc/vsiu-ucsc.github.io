@@ -18,9 +18,9 @@ My research focuses on developing methods grounded in linear algebra to interpre
 
 <div class="announcements">
   <ul>
-    <li><strong>09/2025:</strong> <i>RepIt</i> and <i>SteeringControl</i> are now on arXiv! </li>
-    <li><strong>08/2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
-    <li><strong>03/2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025! 🎉</li>
+    <li><strong>September 2025:</strong> <i>RepIt</i> and <i>SteeringControl</i> are now on arXiv! </li>
+    <li><strong>August 2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
+    <li><strong>March 2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025! 🎉</li>
   </ul>
 </div>
 
