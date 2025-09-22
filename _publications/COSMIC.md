@@ -2,7 +2,7 @@
 title: "COSMIC: Generalized Refusal Direction Identification in LLM Activations"
 collection: publications
 category: manuscripts
-authors: 'Vincent Siu, Nicholas Crispino, Zihao Yu, Sam Pan, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang'
+authors: '<strong>Vincent Siu</strong>, Nicholas Crispino, Zihao Yu, Sam Pan, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang'
 permalink: /publication/2025-cosmic
 excerpt: 'COSMIC presents a novel approach to understanding and identifying refusal mechanisms in large language models by analyzing activation patterns. The work develops methods for detecting generalized refusal directions within model activations, providing insights into how language models implement safety mechanisms and refuse inappropriate requests. This research contributes to both interpretability and safety in LLM development.'
 date: 2025-05-01
