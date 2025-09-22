@@ -70,7 +70,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
 <p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list of publications here</strong></a></p>
 
 
-## F(L)OSS
+## Open Source Software
 <ul>
   <li>
     Contributor to <a href="https://github.com/Leezekun/MassGen">MassGen</a>, a multi-agent scaling system for GenAI<br/>

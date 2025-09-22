@@ -2,6 +2,7 @@
 title: "AgentVigil: End-to-End Redteaming of Black-Box AI Agents"
 collection: publications
 category: manuscripts
+authors: 'Zhun Wang, Vincent Siu, Zhe Ye, Tianneng Shi, Yuzhou Nie, Xuandong Zhao, Chenguang Wang, Wenbo Guo, Dawn Song'
 permalink: /publication/2025-agentvigil
 excerpt: 'AgentVigil introduces a comprehensive framework for conducting end-to-end red-teaming evaluations of black-box AI agents. The work introduces a fuzzing methodology using a Monte-Carlo Tree Search to systematically exploit indirect prompt injections in blackbox AI agent systems, providing valuable insights for improving agent robustness and safety in real-world deployments.'
 date: 2025-05-09

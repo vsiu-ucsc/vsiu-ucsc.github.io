@@ -34,6 +34,20 @@
       {% endif %}
     </h2>
     
+    {% comment %} Authors section {% endcomment %}
+    {% if post.authors %}
+      <p class="archive__item-authors" style="margin: 5px 0; color: #666;">
+        <i class="fa fa-users" aria-hidden="true"></i> 
+        {% if site.author.name and post.authors contains site.author.name %}
+          {{ post.authors | replace: site.author.name, '<strong>' | append: site.author.name | append: '</strong>' }}
+        {% elsif post.highlight_author and post.authors contains post.highlight_author %}
+          {{ post.authors | replace: post.highlight_author, '<strong>' | append: post.highlight_author | append: '</strong>' }}
+        {% else %}
+          {{ post.authors }}
+        {% endif %}
+      </p>
+    {% endif %}
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
