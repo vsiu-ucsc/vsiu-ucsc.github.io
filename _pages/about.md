@@ -52,6 +52,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>RepIt: Representing Isolated Targets to Steer Language Models</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
+      <p><em>Preprint</em></p>
       <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a></p>
     </div>
   </div>
@@ -61,7 +62,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>SteeringControl: Holistic Evaluation of Alignment Steering in LLMs</strong></h3>
       <p><strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang</p>
-      <p><em>Under review at NeurIPS 2025</em></p>
+      <p><em>Preprint</em></p>
       <p><a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a></p>
     </div>
   </div>
@@ -73,7 +74,10 @@ My research focuses on developing methods grounded in linear algebra to interpre
 ## Open Source Software
 <ul>
   <li>
-    Contributor to <a href="https://github.com/Leezekun/MassGen">MassGen</a>, a multi-agent scaling system for GenAI<br/>
-    <small>400+ stars on GitHub</small>
+    <a href="https://github.com/Leezekun/MassGen"><strong>MassGen</strong></a> &mdash; Contributor  
+    <br/>
+    Open-source framework for scaling multi-agent LLM systems. I contribute by setting and tracking long-term development goals, reviewing code, and ensuring releases stay aligned with project direction.  
+    <br/>
+    <small>⭐ 400+ GitHub stars</small>
   </li>
 </ul>
