@@ -65,7 +65,11 @@ I am always looking for collaborators or students to work with me on our project
       <h3 style="margin-top: 0;"><strong>SteeringSafety: A Systematic Safety Evaluation Framework of Representation Steering in LLMs</strong></h3>
       <p><strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang</p>
       <p><em>Preprint</em></p>
-      <p><a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a></p>
+      <p>
+        <a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a> | 
+        <a href="https://github.com/wang-research-lab/SteeringSafety"><strong>Code (GitHub)</strong></a> | 
+        <a href="https://huggingface.co/datasets/WangResearchLab/SteeringSafety"><strong>Data (HuggingFace)</strong></a>
+      </p>
     </div>
   </div>
 </div>
