@@ -9,11 +9,11 @@ redirect_from:
 
 I am a first-year PhD student studying computer science at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Dr. Chenguang Wang</a>. Previously, I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Dr. Ulugbek Kamilov</a> and graduated with Highest Distinction.   
 
-My research focuses on developing methods grounded in linear algebra to interpret and steer the internal activations of large language models (LLMs) to improve their safety and reliability, with applications to security, hallucination reduction, and adversarial robustness. 
+My research focuses on developing methods grounded in linear algebra to interpret and steer the internal activations of large language models (LLMs) to improve their safety and reliability.
 
-I am always looking for collaborators or students to work with me on our projects. Feel free to email me regarding collaboration or, if you are a UCSC student, fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-KQxL_lbysozRje7Vd_AjFtJThcnGOcUIKfzaoyceinBacw/viewform">our lab intake form here</a>.
+I am always looking for collaborators or students to work with me on our projects. Feel free to email me regarding collaboration or, if you are a UCSC student, fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-KQxL_lbysozRje7Vd_AjFtJThcnGOcUIKfzaoyceinBacw/viewform">our lab intake form here</a>!
 
-**Research Interests**: LLM Interpretability, Alignment & Safety, Agentic AI, Adversarial Robustness
+**Research Interests**: LLM Interpretability, Alignment & Safety, Agentic AI
 
 
 ## 📢 Announcements
