@@ -11,6 +11,8 @@ I am a first-year PhD student studying computer science at the University of Cal
 
 My research focuses on developing methods grounded in linear algebra to interpret and steer the internal activations of large language models (LLMs) to improve their safety and reliability, with applications to security, hallucination reduction, and adversarial robustness. 
 
+I am always looking for collaborators or students to work with me on our projects. Feel free to email me regarding collaboration or, if you are a UCSC student, fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-KQxL_lbysozRje7Vd_AjFtJThcnGOcUIKfzaoyceinBacw/viewform">our lab intake form here</a>.
+
 **Research Interests**: LLM Interpretability, Alignment & Safety, Agentic AI, Adversarial Robustness
 
 
@@ -18,7 +20,7 @@ My research focuses on developing methods grounded in linear algebra to interpre
 
 <div class="announcements">
   <ul>
-    <li><strong>September 2025:</strong> <i>RepIt</i> and <i>SteeringControl</i> are now on arXiv! </li>
+    <li><strong>September 2025:</strong> <i>RepIt</i> and <i>SteeringSafety</i> are now on arXiv! </li>
     <li><strong>August 2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
     <li><strong>March 2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025! 🎉</li>
   </ul>
@@ -58,9 +60,9 @@ My research focuses on developing methods grounded in linear algebra to interpre
   </div>
 
   <div style="overflow: hidden; margin-bottom: 30px;">
-    <img src="/images/steeringcontrol.png" alt="SteeringControl overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
+    <img src="/images/steeringsafety.png" alt="SteeringSafety result table" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
     <div style="margin-left: 370px;">
-      <h3 style="margin-top: 0;"><strong>SteeringControl: Holistic Evaluation of Alignment Steering in LLMs</strong></h3>
+      <h3 style="margin-top: 0;"><strong>SteeringSafety: A Systematic Safety Evaluation Framework of Representation Steering in LLMs</strong></h3>
       <p><strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang</p>
       <p><em>Preprint</em></p>
       <p><a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a></p>
