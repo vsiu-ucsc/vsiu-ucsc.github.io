@@ -1,5 +1,5 @@
 ---
-title: "RepIt: Representing Isolated Targets to Steer Language Models"
+title: "RepIt: Steering Language Models with Concept-Specific Refusal Vectors"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-repit
@@ -10,7 +10,7 @@ venue: 'Preprint'
 figure: '/images/repit.png'
 paperurl: 'https://arxiv.org/abs/2509.13281'
 citation: '@misc{siu2025repitrepresentingisolatedtargets,
-      title={RepIt: Representing Isolated Targets to Steer Language Models}, 
+      title={RepIt: Steering Language Models with Concept-Specific Refusal Vectors}, 
       author={Vincent Siu and Nathan W. Henry and Nicholas Crispino and Yang Liu and Dawn Song and Chenguang Wang},
       year={2025},
       eprint={2509.13281},

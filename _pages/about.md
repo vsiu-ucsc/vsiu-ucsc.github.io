@@ -52,7 +52,7 @@ I am always looking for collaborators or students to work with me on our project
   <div style="overflow: hidden; margin-bottom: 30px;">
     <img src="/images/repit.png" alt="RepIt overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
     <div style="margin-left: 370px;">
-      <h3 style="margin-top: 0;"><strong>RepIt: Representing Isolated Targets to Steer Language Models</strong></h3>
+      <h3 style="margin-top: 0;"><strong>RepIt: Steering Language Models with Concept-Specific Refusal Vectors</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
       <p><em>Preprint</em></p>
       <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a></p>
