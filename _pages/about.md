@@ -54,7 +54,7 @@ I am always looking for collaborators or students to work with me on our project
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>RepIt: Steering Language Models with Concept-Specific Refusal Vectors</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
-      <p><em>Preprint</em></p>
+      <p><em>To be presented at ResponsibleFM, NeurIPS2025</em></p>
       <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a></p>
     </div>
   </div>
@@ -64,7 +64,7 @@ I am always looking for collaborators or students to work with me on our project
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>SteeringSafety: A Systematic Safety Evaluation Framework of Representation Steering in LLMs</strong></h3>
       <p><strong>Vincent Siu</strong>*, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang</p>
-      <p><em>Preprint</em></p>
+      <p><em>To be presented at ResponsibleFM, NeurIPS2025</em></p>
       <p>
         <a href="https://arxiv.org/abs/2509.13450"><strong>Paper (arXiv)</strong></a> | 
         <a href="https://github.com/wang-research-lab/SteeringSafety"><strong>Code (GitHub)</strong></a> | 

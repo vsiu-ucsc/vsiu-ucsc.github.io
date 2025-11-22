@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-steeringsafety
 excerpt: This paper introduces SteeringSafety, a holistic evaluation framework for alignment steering methods in large language models. The work provides comprehensive assessment methodologies for various steering techniques used to control and align LLM behavior, offering insights into the effectiveness and limitations of different approaches to model steering.'
 date: 2025-09-16'
-venue: Preprint
+venue: ResponsibleFM, NeurIPS2025
 authors: '<strong>Vincent Siu*</strong>, Nicholas Crispino*, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang'
 paperurl: 'https://www.arxiv.org/abs/2509.13450'
 figure: '/images/steeringsafety.png'
