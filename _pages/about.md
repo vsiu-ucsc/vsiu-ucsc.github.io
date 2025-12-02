@@ -20,6 +20,7 @@ I am always looking for collaborators or students to work with me on our project
 
 <div class="announcements">
   <ul>
+    <li><strong>December 2025:</strong> Our workshop on Agent Safety is accepted to ICLR - see you all in Brazil! I will be in NeurIPS this week as well. </li>
     <li><strong>September 2025:</strong> <i>RepIt</i> and <i>SteeringSafety</i> are now on arXiv! </li>
     <li><strong>August 2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
     <li><strong>March 2025:</strong> Excited to share <i>COSMIC</i> accepted to ACL 2025! 🎉</li>
