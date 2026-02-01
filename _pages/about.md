@@ -86,6 +86,6 @@ I am always looking for collaborators or students to work with me on our project
     <br/>
     Open-source framework for scaling multi-agent LLM systems. I contribute by setting and tracking long-term development goals, reviewing code, and ensuring releases stay aligned with project direction.  
     <br/>
-    <small>⭐ 400+ GitHub stars</small>
+    <small>⭐ 700+ GitHub stars</small>
   </li>
 </ul>
