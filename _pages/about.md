@@ -20,6 +20,7 @@ I am always looking for collaborators or students to work with me on our project
 
 <div class="announcements">
   <ul>
+    <li><strong>January 2025:</strong> RepIt is accepted to ICLR 2026! </li> 
     <li><strong>December 2025:</strong> <a href="https://agentwild-workshop.github.io/">Our workshop on Agent Safety is accepted to ICLR</a> - see you all in Brazil! I will be in NeurIPS this week as well. </li>
     <li><strong>September 2025:</strong> <i>RepIt</i> and <i>SteeringSafety</i> are now on arXiv! </li>
     <li><strong>August 2025:</strong> I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!</li>
@@ -55,7 +56,7 @@ I am always looking for collaborators or students to work with me on our project
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>RepIt: Steering Language Models with Concept-Specific Refusal Vectors</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
-      <p><em>ResponsibleFM, NeurIPS2025</em></p>
+      <p><em>ICLR 2026</em></p>
       <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a></p>
     </div>
   </div>
