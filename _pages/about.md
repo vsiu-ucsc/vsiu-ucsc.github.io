@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student studying computer science at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Dr. Chenguang Wang</a>. Previously, I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Dr. Ulugbek Kamilov</a> and graduated with Highest Distinction.   
 
-My research focuses on developing methods grounded in linear algebra to interpret and steer the internal activations of large language models (LLMs) to improve their safety and reliability.
+My research focuses on developing methods to better interpret and ensure the safety and performance of large language models (LLMs) and LLM agents.
 
 I am always looking for collaborators or students to work with me on our projects. Feel free to email me regarding collaboration or, if you are a UCSC student, fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-KQxL_lbysozRje7Vd_AjFtJThcnGOcUIKfzaoyceinBacw/viewform">our lab intake form here</a>!
 
