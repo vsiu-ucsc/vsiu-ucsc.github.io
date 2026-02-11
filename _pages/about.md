@@ -57,7 +57,8 @@ I am always looking for collaborators or students to work with me on our project
       <h3 style="margin-top: 0;"><strong>RepIt: Steering Language Models with Concept-Specific Refusal Vectors</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
       <p><em>ICLR 2026</em></p>
-      <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a></p>
+      <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a>| 
+        <a href="https://github.com/wang-research-lab/RepIt"><strong>Code (GitHub)</strong></a></p>
     </div>
   </div>
 
@@ -78,6 +79,17 @@ I am always looking for collaborators or students to work with me on our project
 
 <p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list of publications here</strong></a></p>
 
+## 🤝 Service & Engagement
+<ul>
+  <li>
+    <strong>Workshop Co-Organizer:</strong> <a href="https://agentwild-workshop.github.io/">Agent Safety Workshop</a>, ICLR 2026, Brazil
+    <br/>
+    <small>Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly</a></small>
+  </li>
+  <li>
+    <strong>Workshop Reviewer:</strong> ACL KnowFM 2025, NeurIPS ResponsibleFM 2025
+  </li>
+</ul>
 
 ## Open Source Software
 <ul>
