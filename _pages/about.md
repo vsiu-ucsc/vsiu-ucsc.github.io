@@ -82,9 +82,9 @@ I am always looking for collaborators or students to work with me on our project
 ## 🤝 Service & Engagement
 <ul>
   <li>
-    <strong>Workshop Co-Organizer:</strong> <a href="https://agentwild-workshop.github.io/">Agent Safety Workshop</a>, ICLR 2026, Brazil
+    <strong>Workshop Co-Organizer:</strong> <a href="https://agentwild-workshop.github.io/">Agents in the Wild: Safety, Security, and Beyond</a>, ICLR 2026, Brazil
     <br/>
-    <small>Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly</a></small>
+    <small>🌟 Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly by Berkeley RDI</a></small>
   </li>
   <li>
     <strong>Workshop Reviewer:</strong> ACL KnowFM 2025, NeurIPS ResponsibleFM 2025
