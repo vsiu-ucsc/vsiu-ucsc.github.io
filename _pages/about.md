@@ -55,7 +55,7 @@ I am always looking for collaborators or students to work with me on our project
     <img src="/images/formal_framework.png" alt="Formal Security Model framework" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>A Framework for Formalizing LLM Agent Security</strong></h3>
-      <p><strong>Vincent Siu</strong>*, Jingxuan He, Kyle Montgomery, Zhun Wang, Neil Gong, Chenguang Wang, Dawn Song</p>
+      <p><strong>Vincent Siu</strong>, Jingxuan He, Kyle Montgomery, Zhun Wang, Neil Gong, Chenguang Wang, Dawn Song</p>
       <p><em>arXiv</em></p>
       <p>
         <a href="https://arxiv.org/abs/2603.19469"><strong>Paper (arXiv)</strong></a> | 
