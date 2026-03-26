@@ -6,6 +6,7 @@ authors: '<strong>Vincent Siu</strong>*, Jingxuan He, Kyle Montgomery, Zhun Wang
 permalink: /publication/2026-formalframework
 excerpt: 'A formal framework for AI agent security grounded in authorization context rather than action content, with oracle functions that enable precise classification of attacks that are invisible to existing content-based defenses.'
 date: 2026-03-19
+venue: 'arXiv'
 figure: '/images/formal_framework.png'
 paperurl: 'https://arxiv.org/abs/2603.19469'
 citation: '@misc{siu2026frameworkformalizingllmagent,
