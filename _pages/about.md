@@ -61,7 +61,6 @@ I am always looking for collaborators or students to work with me on our project
         <a href="https://arxiv.org/abs/2603.19469"><strong>Paper (arXiv)</strong></a> | 
       </p>
     </div>
-  </div>
 </div>
 
 <div style="margin-bottom: 40px;">
