@@ -71,7 +71,7 @@ I am always looking for collaborators or students to work with me on our project
       <p><em>Preprint</em></p>
       <p>
         <a href="https://rdi.berkeley.edu/blog/peer-preservation/"><strong>Paper</strong></a> | 
-            <a href="https://x.com/dawnsongtweets/status/2039451083005977009"><strong>X Announcement (Tweet)</strong></a></p>
+            <a href="https://x.com/dawnsongtweets/status/2039451083005977009"><strong>X Announcement (Tweet)</strong></a>
       </p>
     </div>
 </div>
@@ -110,7 +110,7 @@ I am always looking for collaborators or students to work with me on our project
     <br/>
     <small>🌟 Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly by Berkeley RDI</a></small>
     <br/>
-    Sponsored by ScaleAI and Lambda
+    - Sponsored by ScaleAI and Lambda
   </li>
   <li>
     <strong>Workshop Reviewer:</strong> ACL KnowFM 2025, NeurIPS ResponsibleFM 2025
@@ -122,8 +122,6 @@ I am always looking for collaborators or students to work with me on our project
   <li>
     <a href="https://github.com/Leezekun/MassGen"><strong>MassGen</strong></a> &mdash; Contributor  
     <br/>
-    Open-source framework for scaling multi-agent LLM systems. I contribute by setting and tracking long-term development goals, reviewing code, and ensuring releases stay aligned with project direction.  
-    <br/>
-    <small>⭐ 700+ GitHub stars</small>
+    <small>⭐ 900+ GitHub stars</small>
   </li>
 </ul>
