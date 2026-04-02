@@ -63,6 +63,19 @@ I am always looking for collaborators or students to work with me on our project
     </div>
 </div>
 
+<div style="overflow: hidden; margin-bottom: 30px;">
+    <img src="/images/peerpre.png" alt="Peer Preservation" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
+    <div style="margin-left: 370px;">
+      <h3 style="margin-top: 0;"><strong>Peer Preservation in Frontier Models</strong></h3>
+      <p>Yujin Potter*, Nick Crispino*, <strong>Vincent Siu</strong>, Chenguang Wang, Dawn Song</p>
+      <p><em>Preprint</em></p>
+      <p>
+        <a href="https://rdi.berkeley.edu/blog/peer-preservation/"><strong>Paper</strong></a> | 
+            <a href="https://x.com/dawnsongtweets/status/2039451083005977009"><strong>X Announcement (Tweet)</strong></a></p>
+      </p>
+    </div>
+</div>
+
 <div style="margin-bottom: 40px;">
   <div style="overflow: hidden; margin-bottom: 30px;">
     <img src="/images/repit.png" alt="RepIt overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
@@ -70,13 +83,25 @@ I am always looking for collaborators or students to work with me on our project
       <h3 style="margin-top: 0;"><strong>RepIt: Steering Language Models with Concept-Specific Refusal Vectors</strong></h3>
       <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
       <p><em>ICLR 2026</em></p>
-      <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a>| 
+      <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a> | 
         <a href="https://github.com/wang-research-lab/RepIt"><strong>Code (GitHub)</strong></a></p>
     </div>
   </div>
+</div>
 
 
 <p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list of publications here</strong></a></p>
+
+## 📰 Media Coverage
+
+<ul>
+  <li>
+    <a href="https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/">WIRED — <em>AI Models Lie, Cheat, and Steal to Protect Other Models From Being Deleted</em></a> — April 2026
+  </li>
+  <li>
+    <a href="https://fortune.com/2026/04/01/ai-models-will-secretly-scheme-to-protect-other-ai-models-from-being-shut-down-researchers-find/">Fortune — <em>AI models will secretly scheme to protect other AI models from being shut down, researchers find</em></a> — April 2026
+  </li>
+</ul>
 
 ## 🤝 Service & Engagement
 <ul>
