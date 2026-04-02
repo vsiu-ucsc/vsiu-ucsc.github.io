@@ -9,6 +9,5 @@ date: 2026-04-01
 venue: 'arXiv'
 figure: '/images/peerpre.png'
 paperurl: 'https://rdi.berkeley.edu/blog/peer-preservation/'
-'
 ---
 
