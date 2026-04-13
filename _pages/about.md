@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student studying computer science at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Prof. Chenguang Wang</a>. I am also very fortunate to closely work with <a href="https://dawnsong.io/">Prof. Dawn Song</a>. Previously, I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Prof. Ulugbek Kamilov</a> and graduated with Highest Distinction.   
+I am a PhD student studying computer science at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Prof. Chenguang Wang</a> and very fortunate to closely work with <a href="https://dawnsong.io/">Prof. Dawn Song</a>. I am also a Visiting Researcher at Scale AI. Previously, I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Prof. Ulugbek Kamilov</a> and graduated with Highest Distinction. You can find my full CV [here]({{ '/cv/' | relative_url }}).
 
 My research focuses on developing methods to better interpret and ensure the safety and performance of large language models (LLMs) and LLM agents.
-
-I am always looking for collaborators or students to work with me on our projects. Feel free to email me regarding collaboration or, if you are a UCSC student, fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-KQxL_lbysozRje7Vd_AjFtJThcnGOcUIKfzaoyceinBacw/viewform">our lab intake form here</a>!
 
 **Research Interests**: LLM Interpretability, Alignment & Safety, Agentic AI
 
@@ -20,7 +18,7 @@ I am always looking for collaborators or students to work with me on our project
 
 <div class="announcements">
   <ul>
-    <li><strong>March 2026:</strong> Our formal agent security model is now on arXiv! </li> 
+    <li><strong>April 2026:</strong> Peer preservation and agent security formalization now out! </li> 
     <li><strong>January 2026:</strong> RepIt is accepted to ICLR 2026! </li> 
     <li><strong>December 2025:</strong> <a href="https://agentwild-workshop.github.io/">Our workshop on Agent Safety is accepted to ICLR</a> - see you all in Brazil! I will be in NeurIPS this week as well. </li>
     <li><strong>September 2025:</strong> <i>RepIt</i> and <i>SteeringSafety</i> are now on arXiv! </li>
