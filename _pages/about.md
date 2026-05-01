@@ -75,20 +75,6 @@ My research focuses on developing methods to better interpret and ensure the saf
     </div>
 </div>
 
-<div style="margin-bottom: 40px;">
-  <div style="overflow: hidden; margin-bottom: 30px;">
-    <img src="/images/repit.png" alt="RepIt overview" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
-    <div style="margin-left: 370px;">
-      <h3 style="margin-top: 0;"><strong>RepIt: Steering Language Models with Concept-Specific Refusal Vectors</strong></h3>
-      <p><strong>Vincent Siu</strong>, Nicholas W. Henry, Nicholas Crispino, Yang Liu, Dawn Song, Chenguang Wang</p>
-      <p><em>ICLR 2026</em></p>
-      <p><a href="https://arxiv.org/abs/2509.13281"><strong>Paper (arXiv)</strong></a> | 
-        <a href="https://github.com/wang-research-lab/RepIt"><strong>Code (GitHub)</strong></a></p>
-    </div>
-  </div>
-</div>
-
-
 <p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list of publications here</strong></a></p>
 
 ## 📰 Media Coverage
@@ -107,9 +93,10 @@ My research focuses on developing methods to better interpret and ensure the saf
   <li>
     <strong>Workshop Co-Organizer:</strong> <a href="https://agentwild-workshop.github.io/">Agents in the Wild: Safety, Security, and Beyond</a>, ICLR 2026, Brazil
     <br/>
-    <small>🌟 Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly by Berkeley RDI</a></small>
+    🌟 Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly by Berkeley RDI</a>
     <br/>
-    - Sponsored by Platinum: ScaleAI, Skywork, Gold: Lambda, AG2
+    <br/>
+    <small><strong>Sponsors</strong> &mdash; <em>Platinum:</em> ScaleAI, Skywork &nbsp;·&nbsp; <em>Gold:</em> Lambda, AG2</small>
   </li>
   <li>
     <strong>Workshop Reviewer:</strong> ACL KnowFM 2025, NeurIPS ResponsibleFM 2025
