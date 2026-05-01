@@ -18,6 +18,7 @@ My research focuses on developing methods to better interpret and ensure the saf
 
 <div class="announcements">
   <ul>
+    <li><strong>May 2026:</strong> 3 works accepted to ICML 2026! </li>
     <li><strong>April 2026:</strong> Peer preservation and agent security formalization now out! </li> 
     <li><strong>January 2026:</strong> RepIt is accepted to ICLR 2026! </li> 
     <li><strong>December 2025:</strong> <a href="https://agentwild-workshop.github.io/">Our workshop on Agent Safety is accepted to ICLR</a> - see you all in Brazil! I will be in NeurIPS this week as well. </li>
@@ -66,7 +67,7 @@ My research focuses on developing methods to better interpret and ensure the saf
     <div style="margin-left: 370px;">
       <h3 style="margin-top: 0;"><strong>Peer Preservation in Frontier Models</strong></h3>
       <p>Yujin Potter*, Nick Crispino*, <strong>Vincent Siu</strong>, Chenguang Wang, Dawn Song</p>
-      <p><em>Preprint</em></p>
+      <p><em>ICML 2026</em></p>
       <p>
         <a href="https://rdi.berkeley.edu/blog/peer-preservation/"><strong>Paper</strong></a> | 
             <a href="https://x.com/dawnsongtweets/status/2039451083005977009"><strong>X Announcement (Tweet)</strong></a>
@@ -108,7 +109,7 @@ My research focuses on developing methods to better interpret and ensure the saf
     <br/>
     <small>🌟 Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly by Berkeley RDI</a></small>
     <br/>
-    - Sponsored by ScaleAI and Lambda
+    - Sponsored by Platinum: ScaleAI, Skywork, Gold: Lambda, AG2
   </li>
   <li>
     <strong>Workshop Reviewer:</strong> ACL KnowFM 2025, NeurIPS ResponsibleFM 2025
