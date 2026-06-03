@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student studying computer science at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Prof. Chenguang Wang</a> and very fortunate to closely work with <a href="https://dawnsong.io/">Prof. Dawn Song</a>. I am also a Visiting Researcher at Scale AI. Previously, I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Prof. Ulugbek Kamilov</a> and graduated with Highest Distinction. You can find my full CV [here]({{ '/cv/' | relative_url }}).
+I am a PhD student at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Prof. Chenguang Wang</a> and very fortunate to closely work with <a href="https://dawnsong.io/">Prof. Dawn Song</a>. I am currently interning at Meta Superintelligence Labs working on post-training. Previously, I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Prof. Ulugbek Kamilov</a> and graduated with Highest Distinction. You can find my full CV [here]({{ '/cv/' | relative_url }}).
 
 My research focuses on developing methods to better interpret and ensure the safety and performance of large language models (LLMs) and LLM agents.
 
@@ -108,6 +108,6 @@ My research focuses on developing methods to better interpret and ensure the saf
   <li>
     <a href="https://github.com/Leezekun/MassGen"><strong>MassGen</strong></a> &mdash; Contributor  
     <br/>
-    <small>⭐ 900+ GitHub stars</small>
+    <small>⭐ 1k+ GitHub stars</small>
   </li>
 </ul>
