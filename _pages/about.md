@@ -92,6 +92,9 @@ My research focuses on developing methods to better interpret and ensure the saf
 ## 🤝 Service & Engagement
 <ul>
   <li>
+    <strong>Workshop Staff:</strong> <a href="https://agentwild-workshop.github.io/icml2026">Agents in the Wild: Safety, Security, and Beyond</a>, ICML 2026
+  </li>
+  <li>
     <strong>Workshop Co-Organizer:</strong> <a href="https://agentwild-workshop.github.io/">Agents in the Wild: Safety, Security, and Beyond</a>, ICLR 2026, Brazil
     <br/>
     🌟 Featured in <a href="https://berkeleyrdi.substack.com/i/186622689/workshop-at-iclr-2026-agents-in-the-wild-safety-security-and-beyond">Agentic AI Weekly by Berkeley RDI</a>
