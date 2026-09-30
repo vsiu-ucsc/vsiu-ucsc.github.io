@@ -1,0 +1,25 @@
+{%- comment -%} Renders _data/publications.yml; used by the home page and /publications/ {%- endcomment -%}
+<style>
+.pub-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.pub-list li {
+  margin-bottom: 12px;
+}
+</style>
+{%- for group in site.data.publications %}
+<h3>{{ group.section }}</h3>
+<ul class="pub-list">
+{%- for pub in group.papers %}
+<li>
+{%- if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}<br/>
+<small>{{ pub.authors | replace: "V. Siu", "<strong>V. Siu</strong>" }}<br/>
+<em>{{ pub.venue | default: "arXiv preprint" }}</em>
+{%- if pub.code %} · <a href="{{ pub.code }}">Code</a>{% endif %}
+{%- if pub.data %} · <a href="{{ pub.data }}">Data</a>{% endif %}</small>
+</li>
+{%- endfor %}
+</ul>
+{%- endfor %}
+<p><small>* indicates equal contribution.</small></p>

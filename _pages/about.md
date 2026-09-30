@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Prof. Chenguang Wang</a> and very fortunate to closely work with <a href="https://dawnsong.io/">Prof. Dawn Song</a>. I am currently interning at Meta Superintelligence Labs working on post-training agents, and previously worked at Scale Labs on computer-use. I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Prof. Ulugbek Kamilov</a> and graduated with Highest Distinction. You can find my full CV [here]({{ '/cv/' | relative_url }}).
+I am a PhD student at the University of California, Santa Cruz, advised by <a href="https://cgraywang.github.io/">Prof. Chenguang Wang</a> and very fortunate to closely work with <a href="https://dawnsong.io/">Prof. Dawn Song</a>. I interned at Meta Superintelligence Labs in summer 2026 working on post-training agents, and previously worked at Scale Labs on computer-use. I completed my Bachelor’s degree in Data Science from the Mathematics Department at Washington University in St. Louis, where I was advised by <a href="https://ukmlv.github.io/">Prof. Ulugbek Kamilov</a> and graduated with Highest Distinction. You can find my full CV [here]({{ '/cv/' | relative_url }}).
 
 My research focuses on developing methods to better interpret and ensure the safety and performance of large language models (LLMs) and LLM agents.
 
@@ -18,6 +18,7 @@ My research focuses on developing methods to better interpret and ensure the saf
 
 <div class="announcements">
   <ul>
+    <li><strong>September 2026:</strong> 3 works accepted to NeurIPS 2026! </li>
     <li><strong>July 2026:</strong> 1 work accepted to COLM, SafeClawArena, Chainworld, and Agent-LE released on arXiv! </li>
     <li><strong>May 2026:</strong> 3 works accepted to ICML 2026! </li>
     <li><strong>April 2026:</strong> Peer preservation and agent security formalization now out! </li> 
@@ -49,34 +50,9 @@ My research focuses on developing methods to better interpret and ensure the saf
 </style>
 
 
-## 📄 Featured Publications
+## 📄 Publications
 
-<div style="overflow: hidden; margin-bottom: 30px;">
-    <img src="/images/formal_framework.png" alt="Formal Security Model framework" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
-    <div style="margin-left: 370px;">
-      <h3 style="margin-top: 0;"><strong>A Framework for Formalizing LLM Agent Security</strong></h3>
-      <p><strong>Vincent Siu</strong>, Jingxuan He, Kyle Montgomery, Zhun Wang, Neil Gong, Chenguang Wang, Dawn Song</p>
-      <p><em>arXiv</em></p>
-      <p>
-        <a href="https://arxiv.org/abs/2603.19469"><strong>Paper (arXiv)</strong></a> | 
-      </p>
-    </div>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 30px;">
-    <img src="/images/peerpre.png" alt="Peer Preservation" style="float: left; margin: 0 20px 20px 0; max-width: 350px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background-color: white; padding: 10px;">
-    <div style="margin-left: 370px;">
-      <h3 style="margin-top: 0;"><strong>Peer Preservation in Frontier Models</strong></h3>
-      <p>Yujin Potter*, Nick Crispino*, <strong>Vincent Siu</strong>, Chenguang Wang, Dawn Song</p>
-      <p><em>ICML 2026</em></p>
-      <p>
-        <a href="https://rdi.berkeley.edu/blog/peer-preservation/"><strong>Paper</strong></a> | 
-            <a href="https://x.com/dawnsongtweets/status/2039451083005977009"><strong>X Announcement (Tweet)</strong></a>
-      </p>
-    </div>
-</div>
-
-<p><a href="https://vsiu-ucsc.github.io/publications/"><strong>Find the full list of publications here</strong></a></p>
+{% include publication-list.html %}
 
 ## 📰 Media Coverage
 
@@ -86,6 +62,9 @@ My research focuses on developing methods to better interpret and ensure the saf
   </li>
   <li>
     <a href="https://fortune.com/2026/04/01/ai-models-will-secretly-scheme-to-protect-other-ai-models-from-being-shut-down-researchers-find/">Fortune — <em>AI models will secretly scheme to protect other AI models from being shut down, researchers find</em></a> — April 2026
+  </li>
+  <li>
+    <a href="https://www.forbes.com/sites/lanceeliot/2026/04/02/ai-favors-self-preservation-and-now-seeks-peer-preservation-of-fellow-ai-in-sneaky-deceitful-ways/">Forbes — <em>AI Favors Self-Preservation And Now Seeks ‘Peer Preservation’ Of Fellow AI In Sneaky Deceitful Ways</em></a> — April 2026
   </li>
 </ul>
 
