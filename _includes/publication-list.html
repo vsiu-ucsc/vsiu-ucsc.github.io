@@ -10,7 +10,7 @@
 </div>
 {%- for group in site.data.publications %}
 <h3 class="entry-group">{{ group.section }}</h3>
-<ul class="entry-list">
+<ul class="entry-list entry-list--wide-label">
 {%- for pub in group.papers %}
 <li class="entry" data-topics="{{ pub.topics | join: ' ' }}">
 {%- assign venue = pub.venue | default: "arXiv" %}
@@ -21,19 +21,25 @@
 {%- elsif venue contains "COLM" %}{% assign logo = "colm.png" %}
 {%- elsif venue contains "ACL" or venue contains "EMNLP" %}{% assign logo = "arr.png" %}
 {%- endif %}
-<div class="entry__label venue">{% if logo %}<span class="venue__icon"><img src="{{ '/images/venues/' | append: logo | relative_url }}" alt=""></span>{% endif %}{{ venue }}</div>
-<div class="entry__body">
-<div class="entry__title">{{ pub.title }}</div>
-<div class="entry__meta">{{ pub.authors | replace: "V. Siu", "<strong>V. Siu</strong>" }}</div>
-<div class="entry__links">
+<div class="entry__label">
+<div class="venue">{% if logo %}<span class="venue__icon"><img src="{{ '/images/venues/' | append: logo | relative_url }}" alt=""></span>{% endif %}{{ venue }}</div>
+<div class="entry__topics">
 {%- for key in pub.topics %}
 {%- assign topic = site.data.topics | where: "key", key | first %}
 <button type="button" class="topic topic--small topic--{{ key }}" data-topic-filter="{{ key }}" aria-pressed="false">{{ topic.short }}</button>
 {%- endfor %}
+</div>
+</div>
+<div class="entry__body">
+<div class="entry__title">{{ pub.title }}</div>
+<div class="entry__meta">{{ pub.authors | replace: "V. Siu", "<strong>V. Siu</strong>" }}</div>
+{%- if pub.url or pub.code or pub.data %}
+<div class="entry__links">
 {%- if pub.url %}<a href="{{ pub.url }}">Paper</a>{% endif %}
 {%- if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
 {%- if pub.data %}<a href="{{ pub.data }}">Data</a>{% endif %}
 </div>
+{%- endif %}
 </div>
 </li>
 {%- endfor %}

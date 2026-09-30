@@ -120,47 +120,4 @@ My research focuses on developing methods to better interpret and ensure the saf
   });
 })();
 
-/* Section headings act as detents for wheel and trackpad scrolling: the page slows as a
-   heading nears the masthead, stops on it, and only moves on once enough further scrolling
-   has built up. Touch, keyboard and scrollbar scrolling are left alone. */
-(function () {
-  var headings = [].slice.call(document.querySelectorAll('.page__content h2:not(#about)'));
-  var LINE = 90;
-  var ZONE = 180;
-  var SLOWEST = 0.35;
-  var HOLD = 260;
-  var held = null;
-  var absorbed = 0;
-  var direction = 0;
-  function offset(h) { return h.getBoundingClientRect().top - LINE; }
-  window.addEventListener('wheel', function (e) {
-    if (e.ctrlKey || e.deltaMode !== 0 || e.deltaY === 0 || Math.abs(e.deltaX) > Math.abs(e.deltaY)) { return; }
-    if (e.target.closest && e.target.closest('.entry-list--scroll')) { return; }
-    var dir = e.deltaY > 0 ? 1 : -1;
-    if (held && Math.abs(offset(held)) > 2) { held = null; }
-    if (held) {
-      e.preventDefault();
-      if (dir !== direction) { direction = dir; absorbed = 0; }
-      absorbed += Math.abs(e.deltaY);
-      if (absorbed >= HOLD) { held = null; }
-      return;
-    }
-    var ahead = null;
-    var distance = Infinity;
-    headings.forEach(function (h) {
-      var d = offset(h) * dir;
-      if (d > 0.5 && d < distance) { ahead = h; distance = d; }
-    });
-    if (!ahead || distance >= ZONE) { return; }
-    e.preventDefault();
-    var step = Math.abs(e.deltaY) * (SLOWEST + (1 - SLOWEST) * distance / ZONE);
-    if (step >= distance) {
-      step = distance;
-      held = ahead;
-      absorbed = 0;
-      direction = dir;
-    }
-    window.scrollBy(0, step * dir);
-  }, { passive: false });
-})();
 </script>
