@@ -33,22 +33,28 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* Dark theme for the site: same roles as the light theme on neutral charcoal */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #a3a3a0;
+    --global-bg-color                   : #151515;
+    --global-surface-color              : #1f1f1f;
+    --global-footer-bg-color            : #1f1f1f;
+    --global-border-color               : #2f2f2f;
+    --global-dark-border-color          : #3d3d3d;
+    --global-code-background-color      : #1f1f1f;
+    --global-code-text-color            : #e8e8e6;
+    --global-fig-caption-color          : #e8e8e6;
+    --global-link-color                 : #7ab4f5;
+    --global-link-color-hover           : #a9cffa;
+    --global-link-color-visited         : #7ab4f5;
+    --global-masthead-link-color        : #e8e8e6;
+    --global-masthead-link-color-hover  : #7ab4f5;
+    --global-text-color                 : #e8e8e6;
+    --global-text-color-light           : #e8e8e6; /* secondary text is set by size and weight, not gray */
+    --global-thead-color                : #1f1f1f;
+
+    /* research topic colors, keyed to _data/topics.yml */
+    --topic-agents-color                : #4fd1c5;
+    --topic-security-color              : #f0a95b;
+    --topic-interp-color                : #b79bf5;
 }

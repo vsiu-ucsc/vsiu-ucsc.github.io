@@ -1,61 +1,76 @@
-# Single source for the publication list on the home page and /publications/.
+# Single source for the publication list on the home page.
 # Mirrors the CV: add an entry to the top of the right section.
 #   title, authors  - required ("V. Siu" is bolded automatically)
-#   venue           - omit for preprints (shown as "arXiv preprint")
+#   topics          - keys from topics.yml (agents, security, interp); drives the chips and filter
+#   venue           - omit for preprints (shown as "arXiv")
 #   url, code, data - optional links
 
 - section: Preprints
   papers:
     - title: "Tunable Tool-Call Rates in LLM Agents via Representation Steering"
       authors: "Y. Chen, V. Siu, Y. Liu, D. Song, C. Wang"
+      topics: [agents, interp]
       url: https://arxiv.org/abs/2608.25198
     - title: "Understanding and Evaluating Claw-like Agent Security Through a Computer-Systems Lens"
       authors: "P. Niu, W. Qu, S. Gu, T. Shi, Y. Li, A. Tawaha, H. Alzahrani, V. Siu, B. Li, C. Wang, J. Zhang, B. Alomair, M. Jin, M. Chen, C. Wang, C. Spanos, D. Song"
+      topics: [agents, security]
       url: https://arxiv.org/abs/2606.30755
     - title: "ChainWorld: Composing Long-Horizon Desktop Workloads from Atomic OSWorld Tasks"
       authors: "V. Siu, M. Sharma, D. Song, D. Y. Zhang, C. Wang"
+      topics: [agents]
       url: https://arxiv.org/abs/2606.21654
     - title: "A Framework for Formalizing LLM Agent Security"
       authors: "V. Siu, J. He, K. Montgomery, Z. Wang, N. Gong, C. Wang, D. Song"
+      topics: [agents, security]
       url: https://arxiv.org/abs/2603.19469
 
 - section: Published
   papers:
     - title: "SudoBench: A Contextual Authorization Benchmark for LLM Agents"
       authors: "V. Siu, T. Shi, S. Gu, Z. Wang, D. Song, C. Wang"
+      topics: [agents, security]
       venue: NeurIPS 2026
     - title: "Position: A Safe LLM and a Safe Harness Do Not Make a Safe Agent"
       authors: "V. Siu, K. Montgomery, Y. Potter, Z. Wang, D. Song, C. Wang"
+      topics: [agents, security]
       venue: NeurIPS 2026
     - title: "Agents' Last Exam"
       authors: "Y. Sun, X. Han, W. Zhang, et al., V. Siu, et al."
+      topics: [agents]
       venue: NeurIPS 2026
     - title: "Component and Dimension Sparsity in Transformer Refusal Mechanisms"
       authors: "V. Siu, G. Grant-Richards, V. Pavlovich, Y. Sun, D. Song, C. Wang"
+      topics: [security, interp]
       venue: COLM 2026
     - title: "Position: Agent Security Needs Redefinition through a Holistic Framework"
       authors: "V. Siu, J. He, K. Montgomery, Z. Wang, C. Wang, D. Song"
+      topics: [agents, security]
       venue: ICML 2026
     - title: "Peer-Preservation in Frontier Models"
       authors: "Y. Potter*, N. Crispino*, V. Siu, C. Wang, D. Song"
+      topics: [agents, security]
       venue: ICML 2026
       url: https://rdi.berkeley.edu/blog/peer-preservation/
     - title: "SteeringSafety: A Systematic Safety Evaluation Framework of Representation Steering in LLMs"
       authors: "V. Siu*, N. Crispino*, D. Park, N. W. Henry, Z. Wang, Y. Liu, D. Song, C. Wang"
+      topics: [security, interp]
       venue: ICML 2026
       url: https://arxiv.org/abs/2509.13450
       code: https://github.com/wang-research-lab/SteeringSafety
       data: https://huggingface.co/datasets/WangResearchLab/SteeringSafety
     - title: "RepIt: Steering Language Models with Concept-Specific Refusal Vectors"
       authors: "V. Siu, N. W. Henry, N. Crispino, Y. Liu, D. Song, C. Wang"
+      topics: [security, interp]
       venue: ICLR 2026
       url: https://arxiv.org/abs/2509.13281
     - title: "AgentVigil: End-to-End Redteaming of Black-Box AI Agents"
       authors: "Z. Wang, V. Siu, Z. Ye, T. Shi, Y. Nie, X. Zhao, C. Wang, W. Guo, D. Song"
+      topics: [agents, security]
       venue: EMNLP 2025 Findings
       url: https://arxiv.org/abs/2505.05849
     - title: "COSMIC: Generalized Refusal Direction Identification in LLM Activations"
       authors: "V. Siu, N. Crispino, Z. Yu, S. Pan, Z. Wang, Y. Liu, D. Song, C. Wang"
+      topics: [security, interp]
       venue: ACL 2025 Findings
       url: https://arxiv.org/abs/2506.00085
       code: https://github.com/wang-research-lab/COSMIC

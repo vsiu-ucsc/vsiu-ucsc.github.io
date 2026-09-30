@@ -1,0 +1,14 @@
+# Research topics: the chips under the bio, the publication filter, and the
+# chips on each paper. A paper lists the keys it belongs to under `topics:` in
+# publications.yml. Each key's color is --topic-<key>-color in
+# _sass/theme/_default_{light,dark}.scss.
+
+- key: agents
+  name: Agentic AI
+  short: Agents
+- key: security
+  name: Safety & Security
+  short: Safety & Security
+- key: interp
+  name: LLM Interpretability
+  short: Interpretability

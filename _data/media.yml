@@ -1,0 +1,18 @@
+# Media coverage cards on the home page, newest first.
+# logo is a file in images/media/ (any single-color SVG; it is tinted to match the theme).
+
+- outlet: WIRED
+  logo: wired.svg
+  title: "AI Models Lie, Cheat, and Steal to Protect Other Models From Being Deleted"
+  url: https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/
+  date: April 2026
+- outlet: Fortune
+  logo: fortune.svg
+  title: "AI models will secretly scheme to protect other AI models from being shut down, researchers find"
+  url: https://fortune.com/2026/04/01/ai-models-will-secretly-scheme-to-protect-other-ai-models-from-being-shut-down-researchers-find/
+  date: April 2026
+- outlet: Forbes
+  logo: forbes.svg
+  title: "AI Favors Self-Preservation And Now Seeks ‘Peer Preservation’ Of Fellow AI In Sneaky Deceitful Ways"
+  url: https://www.forbes.com/sites/lanceeliot/2026/04/02/ai-favors-self-preservation-and-now-seeks-peer-preservation-of-fellow-ai-in-sneaky-deceitful-ways/
+  date: April 2026

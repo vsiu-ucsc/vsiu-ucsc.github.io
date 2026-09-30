@@ -18,6 +18,20 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if site.data.affiliations %}
+      <div class="author__affiliations">
+        {% for group in site.data.affiliations %}
+          <p class="affiliation__heading">{{ group.heading }}</p>
+          {% for item in group.items %}
+            <div class="affiliation">
+              {% if item.url %}<a href="{{ item.url }}">{% endif %}<span class="affiliation__logo"><img src="{{ item.logo | prepend: "/images/orgs/" | prepend: base_path }}" alt="{{ item.org }}"></span>{% if item.url %}</a>{% endif %}
+              <p class="affiliation__role">{{ item.role }}</p>
+              {% if item.when %}<p class="affiliation__when">{{ item.when }}</p>{% endif %}
+            </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">

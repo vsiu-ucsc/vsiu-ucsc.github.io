@@ -1,25 +1,42 @@
-{%- comment -%} Renders _data/publications.yml; used by the home page and /publications/ {%- endcomment -%}
-<style>
-.pub-list {
-  list-style-type: none;
-  padding-left: 0;
-}
-.pub-list li {
-  margin-bottom: 12px;
-}
-</style>
+{%- comment -%}
+  Renders _data/publications.yml on the home page, with a topic filter from _data/topics.yml.
+  Venue icons come from images/venues/, picked by name below (ACL and EMNLP share the ARR mark).
+{%- endcomment -%}
+<div class="topic-filter" role="group" aria-label="Filter publications by topic">
+<button type="button" class="topic is-active" data-topic-filter="" aria-pressed="true">All</button>
+{%- for topic in site.data.topics %}
+<button type="button" class="topic topic--{{ topic.key }}" data-topic-filter="{{ topic.key }}" aria-pressed="false">{{ topic.name }}</button>
+{%- endfor %}
+</div>
 {%- for group in site.data.publications %}
-<h3>{{ group.section }}</h3>
-<ul class="pub-list">
+<h3 class="entry-group">{{ group.section }}</h3>
+<ul class="entry-list">
 {%- for pub in group.papers %}
-<li>
-{%- if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}<br/>
-<small>{{ pub.authors | replace: "V. Siu", "<strong>V. Siu</strong>" }}<br/>
-<em>{{ pub.venue | default: "arXiv preprint" }}</em>
-{%- if pub.code %} · <a href="{{ pub.code }}">Code</a>{% endif %}
-{%- if pub.data %} · <a href="{{ pub.data }}">Data</a>{% endif %}</small>
+<li class="entry" data-topics="{{ pub.topics | join: ' ' }}">
+{%- assign venue = pub.venue | default: "arXiv" %}
+{%- assign logo = nil %}
+{%- if venue contains "NeurIPS" %}{% assign logo = "neurips.png" %}
+{%- elsif venue contains "ICML" %}{% assign logo = "icml.png" %}
+{%- elsif venue contains "ICLR" %}{% assign logo = "iclr.png" %}
+{%- elsif venue contains "COLM" %}{% assign logo = "colm.png" %}
+{%- elsif venue contains "ACL" or venue contains "EMNLP" %}{% assign logo = "arr.png" %}
+{%- endif %}
+<div class="entry__label venue">{% if logo %}<span class="venue__icon"><img src="{{ '/images/venues/' | append: logo | relative_url }}" alt=""></span>{% endif %}{{ venue }}</div>
+<div class="entry__body">
+<div class="entry__title">{{ pub.title }}</div>
+<div class="entry__meta">{{ pub.authors | replace: "V. Siu", "<strong>V. Siu</strong>" }}</div>
+<div class="entry__links">
+{%- for key in pub.topics %}
+{%- assign topic = site.data.topics | where: "key", key | first %}
+<button type="button" class="topic topic--small topic--{{ key }}" data-topic-filter="{{ key }}" aria-pressed="false">{{ topic.short }}</button>
+{%- endfor %}
+{%- if pub.url %}<a href="{{ pub.url }}">Paper</a>{% endif %}
+{%- if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
+{%- if pub.data %}<a href="{{ pub.data }}">Data</a>{% endif %}
+</div>
+</div>
 </li>
 {%- endfor %}
 </ul>
 {%- endfor %}
-<p><small>* indicates equal contribution.</small></p>
+<p class="entry-note">* indicates equal contribution.</p>

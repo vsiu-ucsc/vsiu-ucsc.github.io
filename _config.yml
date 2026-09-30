@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Vincent's WebPage"
+title                    : "Vincent Siu"
 title_separator          : "-"
 name                     : &name "Vincent Siu"
-description              : &description "personal description"
+description              : &description "Vincent Siu is a PhD student at UC Santa Cruz working on the safety, security, and interpretability of LLM agents."
 url                      : https://vsiu-ucsc.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Vincent Siu"
   pronouns         : "he/him"  
-  bio              : "UCSC PhD Student Working on Agents"
+  bio              : # left blank: the affiliations block below the name says it with logos
   location         : "Santa Clara, CA"
-  employer         : "UCSC"
-  uri              : "vsiu-ucsc.github.io"
+  employer         : # shown with logos instead, from _data/affiliations.yml
+  uri              : # URL (left blank: it only linked back to this site)
   email            : "vsiu3@ucsc.edu" 
 
   # Academic websites
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "vsiuwustl"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

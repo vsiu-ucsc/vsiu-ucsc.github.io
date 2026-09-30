@@ -1,0 +1,20 @@
+# Affiliations shown in the sidebar under the bio. Logos live in images/orgs/
+# (transparent PNGs, drawn for a white background).
+
+- heading: Currently
+  items:
+    - org: UC Santa Cruz
+      role: PhD Student
+      logo: ucsc.png
+      url: https://www.ucsc.edu/
+
+- heading: Previously
+  items:
+    - org: Meta Superintelligence Labs
+      role: Research Scientist Intern
+      when: Summer 2026
+      logo: meta.png
+    - org: Scale AI
+      role: Visiting Researcher
+      when: Spring 2026
+      logo: scale.png

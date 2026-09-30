@@ -1,0 +1,21 @@
+# Announcements on the home page, newest first, in a scrollable box.
+# HTML is allowed in text.
+
+- date: Sep 2026
+  text: '3 works accepted to NeurIPS 2026, and our third <a href="https://agentwild-workshop.github.io/neurips2026/">Agents in the Wild workshop</a> will be held at NeurIPS in Sydney!'
+- date: Jul 2026
+  text: "1 work accepted to COLM; SafeClawArena, ChainWorld, and Agent-LE released on arXiv!"
+- date: May 2026
+  text: "3 works accepted to ICML 2026!"
+- date: Apr 2026
+  text: "Peer preservation and agent security formalization now out!"
+- date: Jan 2026
+  text: "RepIt is accepted to ICLR 2026!"
+- date: Dec 2025
+  text: '<a href="https://agentwild-workshop.github.io/">Our workshop on Agent Safety is accepted to ICLR</a> - see you all in Brazil! I will be in NeurIPS this week as well.'
+- date: Sep 2025
+  text: "<i>RepIt</i> and <i>SteeringSafety</i> are now on arXiv!"
+- date: Aug 2025
+  text: "I will be moving with my advisor to UCSC to continue my PhD! Additionally, <i>AgentVigil</i> was accepted to EMNLP 2025!"
+- date: Mar 2025
+  text: "Excited to share <i>COSMIC</i> accepted to ACL 2025!"

@@ -1,0 +1,560 @@
+/* ==========================================================================
+   SITE CUSTOMISATIONS
+   Everything specific to this site, layered over the AcademicPages defaults.
+   Colors come only from the variables in theme/_default_{light,dark}.scss.
+   ========================================================================== */
+
+/* keep anchored section headings clear of the fixed masthead */
+html {
+  scroll-padding-top: 5em;
+}
+
+/*
+   Layout: a fixed-width sidebar, a clear gutter, and content that runs to the
+   right edge of a slightly narrower, centered column.
+   ========================================================================== */
+
+$site-max-width: 1180px;
+$sidebar-width: 220px;
+$sidebar-gutter: 64px;
+
+.masthead__inner-wrap,
+#main,
+.page__footer footer {
+  @include breakpoint($x-large) {
+    max-width: $site-max-width;
+  }
+}
+
+@include breakpoint($large) {
+  .sidebar {
+    width: $sidebar-width;
+    max-width: none;
+    padding-right: 0;
+  }
+
+  .page,
+  .archive {
+    width: calc(100% - #{$sidebar-width + $sidebar-gutter});
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/*
+   Masthead and section tabs
+   ========================================================================== */
+
+.greedy-nav {
+  a {
+    font-size: $type-size-6 * 1.15;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+
+    &:hover,
+    &.is-current {
+      color: var(--global-text-color);
+    }
+  }
+
+  .visible-links {
+    li:first-child a {
+      font-size: $type-size-5;
+      font-weight: 700;
+      color: var(--global-text-color);
+    }
+
+    a:before {
+      height: 2px;
+      background: var(--global-link-color);
+    }
+
+    a.is-current:before {
+      transform: scaleX(1);
+    }
+  }
+
+  button {
+    background-color: transparent;
+  }
+
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: var(--global-text-color);
+  }
+
+  .hidden-links {
+    background: var(--global-bg-color);
+
+    &:after {
+      border-color: var(--global-bg-color) transparent;
+    }
+  }
+}
+
+/*
+   Sidebar
+   ========================================================================== */
+
+.author__avatar img {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+
+  @include breakpoint($large) {
+    padding: 0;
+    border: 1px solid var(--global-border-color);
+  }
+}
+
+.author__pronouns,
+.author__bio,
+.author__urls {
+  color: var(--global-text-color-light);
+}
+
+/* affiliations with logos; the compact mobile header leaves them to the bio text */
+.author__affiliations {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+    margin-bottom: 1.5em;
+  }
+}
+
+.sidebar .affiliation__heading {
+  margin: 1.4em 0 0.6em;
+  font-size: $type-size-7;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.affiliation {
+  margin-bottom: 0.9em;
+
+  &__logo {
+    display: inline-block;
+    border-radius: 5px;
+
+    html[data-theme="dark"] & {
+      padding: 0.3em 0.45em;
+      background: #fff;
+    }
+
+    img {
+      display: block;
+      width: auto;
+      height: 1.35em;
+    }
+  }
+
+  .sidebar &__role {
+    margin: 0.35em 0 0;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .sidebar &__when {
+    margin: 0;
+    line-height: 1.35;
+  }
+}
+
+/* sidebar link icons in their brand colors (X is black or white by brand) */
+.author__urls {
+  .fa-location-dot { color: #e5484d; }
+  .fa-envelope { color: #f59e0b; }
+  .ai-google-scholar { color: #4285f4; }
+  .fa-linkedin { color: #0a66c2; }
+
+  html[data-theme="dark"] & .fa-linkedin { color: #4d9fe8; }
+}
+
+.author__urls {
+  a:hover {
+    color: var(--global-link-color);
+    text-decoration: none;
+  }
+
+  &:after {
+    border-color: var(--global-bg-color) transparent;
+  }
+}
+
+/*
+   Page content
+   ========================================================================== */
+
+.page__content {
+  a {
+    color: var(--global-link-color);
+    text-decoration: none;
+
+    &:visited {
+      color: var(--global-link-color-visited);
+    }
+
+    &:hover {
+      color: var(--global-link-color-hover);
+      text-decoration: underline;
+    }
+  }
+
+  /* section headings: a step above body text, led by an emoji */
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 3em;
+    padding-bottom: 0.55em;
+    font-size: $type-size-4;
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-dark-border-color);
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    .section-mark {
+      font-size: 0.9em;
+      line-height: 1;
+    }
+  }
+}
+
+/*
+   Tiles: linked cards for media coverage, workshops and open source
+   ========================================================================== */
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13em, 1fr));
+  gap: 0.9em;
+  margin-top: 1.25em;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  padding: 1.1em 1.2em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  font-size: $type-size-5 * 0.9;
+  line-height: 1.4;
+  background: var(--global-surface-color);
+  transition: border-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+
+  /* the specificity here is to beat the generic .page__content link styles */
+  .page__content &,
+  .page__content &:visited,
+  .page__content &:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  &:hover {
+    border-color: var(--global-text-color);
+    transform: translateY(-2px);
+  }
+
+  /* a single-color logo, used as a mask so it takes the theme's text color */
+  &__logo {
+    height: 1.5em;
+    margin-bottom: 0.3em;
+    background: var(--global-text-color);
+    -webkit-mask: var(--logo) no-repeat left center / contain;
+            mask: var(--logo) no-repeat left center / contain;
+  }
+
+  &__flag {
+    align-self: flex-start;
+    height: 1.9em;
+    margin-bottom: 0.3em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 3px;
+  }
+
+  &__kicker {
+    font-size: $type-size-6;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__meta {
+    margin-top: auto;
+    font-size: $type-size-5 * 0.85;
+    color: var(--global-text-color-light);
+  }
+}
+
+/*
+   Entry lists: a label column (venue, date, outlet) beside a title/meta/links
+   body. Shared by news, publications, media, service and open source.
+   ========================================================================== */
+
+.entry-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  /* the news box: a framed panel of exactly four equal rows, scrolling one row
+     per click like a dial, with an always-visible scrollbar as the cue */
+  &--scroll {
+    --news-row: 3.6em;
+    box-sizing: content-box;
+    height: calc(var(--news-row) * 4);
+    margin-top: 1.25em;
+    padding: 0 0.5em 0 1.2em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    background: var(--global-surface-color);
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+
+    &::-webkit-scrollbar {
+      width: 14px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 4px solid transparent;
+      border-radius: 999px;
+      background: var(--global-dark-border-color);
+      background-clip: content-box;
+    }
+
+    @media (max-width: $small) {
+      --news-row: 6em;
+    }
+  }
+}
+
+.entry-group {
+  margin: 2em 0 0.25em;
+  font-size: $type-size-5;
+
+  &__note {
+    margin-left: 0.4em;
+    font-size: $type-size-6;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+  }
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 9.5em 1fr;
+  column-gap: 1em;
+  padding: 0.8em 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .entry-list--scroll & {
+    align-content: center;
+    align-items: center;
+    height: var(--news-row);
+    margin: 0;
+    padding: 0;
+    scroll-snap-align: start;
+
+    .entry__label {
+      padding-top: 0;
+    }
+
+    .entry__body {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+
+      @media (max-width: $small) {
+        -webkit-line-clamp: 4;
+      }
+    }
+  }
+
+  /* short labels such as dates need less room */
+  .entry-list--narrow & {
+    grid-template-columns: 5.5em 1fr;
+  }
+
+  @media (max-width: $small) {
+    grid-template-columns: 1fr;
+    row-gap: 0.4em;
+  }
+
+  &__label {
+    padding-top: 0.2em;
+    font-size: $type-size-6;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+  }
+
+  &__body {
+    font-size: $type-size-5 * 0.9;
+    line-height: 1.45;
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__meta {
+    margin-top: 0.2em;
+    font-size: $type-size-5 * 0.85;
+    color: var(--global-text-color-light);
+
+    strong {
+      color: var(--global-text-color);
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4em 0.5em;
+    margin-top: 0.45em;
+    font-size: $type-size-5 * 0.85;
+    font-weight: 600;
+
+    a {
+      margin-left: 0.5em;
+    }
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.page__content .entry-note {
+  margin-top: 0.9em;
+  font-size: $type-size-6 !important;
+  color: var(--global-text-color-light);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15em 0.7em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+  background: var(--global-surface-color);
+
+  &--strong {
+    color: var(--global-text-color);
+  }
+}
+
+/*
+   Research topics: the only saturated colors on the site. The chips under the
+   bio, the publication filter and the chips on each paper share one style.
+   ========================================================================== */
+
+.topic {
+  --topic-color: var(--global-text-color-light);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.2em 0.8em;
+  border: 1px solid color-mix(in srgb, var(--topic-color) 35%, transparent);
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: $type-size-6;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: var(--topic-color);
+  background: color-mix(in srgb, var(--topic-color) 10%, transparent);
+  cursor: pointer;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
+
+  &--agents   { --topic-color: var(--topic-agents-color); }
+  &--security { --topic-color: var(--topic-security-color); }
+  &--interp   { --topic-color: var(--topic-interp-color); }
+
+  &--small {
+    padding: 0.05em 0.7em;
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    background: color-mix(in srgb, var(--topic-color) 22%, transparent);
+  }
+
+  &.is-active {
+    border-color: var(--topic-color);
+    color: var(--global-bg-color);
+    background: var(--topic-color);
+  }
+}
+
+/* the specificity here is to beat the generic .page__content link styles */
+.page__content a.topic {
+  color: var(--topic-color);
+  text-decoration: none;
+
+  &.is-active {
+    color: var(--global-bg-color);
+  }
+}
+
+.topic-filter {
+  display: flex;
+  margin-top: 1.25em;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+/*
+   Venue label: a conference mark beside the venue name. The marks are drawn
+   for white backgrounds: bare in the light theme, on a white tile in the dark.
+   ========================================================================== */
+
+.venue {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  line-height: 1.25;
+
+  .entry > & {
+    align-items: flex-start;
+    padding-top: 0;
+  }
+
+  &__icon {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.6em;
+    height: 2.6em;
+    border-radius: 7px;
+
+    html[data-theme="dark"] & {
+      padding: 0.15em;
+      background: #fff;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
